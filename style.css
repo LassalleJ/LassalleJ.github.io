@@ -1,0 +1,158 @@
+@import url("http://fonts.cdnfonts.com/css/aniron");
+* {
+  font-family: "Aniron", sans-serif;
+}
+
+body {
+  background-color: #eeaa5b;
+}
+
+nav {
+  background-color: #432707;
+  display: flex;
+  color: #eeaa5b;
+  align-items: center;
+  justify-content: space-between;
+}
+nav h2 {
+  margin-left: 10px;
+  font-size: 1.5em;
+}
+nav ul {
+  display: flex;
+  justify-content: right;
+  gap: 5%;
+  width: 60%;
+  margin-right: 20px;
+}
+nav ul li {
+  list-style: none;
+  font-size: 1.2em;
+}
+
+h1 {
+  color: #854e0e;
+  margin: 20px;
+  font-size: 3em;
+}
+
+#rings {
+  display: flex;
+  justify-content: center;
+  padding-left: 120px;
+  align-items: center;
+  margin-top: 80px;
+}
+#rings + h1 {
+  text-align: center;
+}
+
+#head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#head .ring_head {
+  width: 120px;
+  height: 120px;
+  border: 12px solid orange;
+  border-radius: 50%;
+  transform: translateX(0px);
+  box-shadow: inset 8px 8px 12px #664200, 8px 8px 12px #664200;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+section h1 {
+  font-size: 4em;
+}
+section .ring_middle {
+  width: 200px;
+  height: 200px;
+  border: 20px solid gold;
+  border-radius: 50%;
+  transform: translateX(0px);
+  box-shadow: inset 13.3333333333px 13.3333333333px 20px #665600, 13.3333333333px 13.3333333333px 20px #665600;
+}
+
+.ring_1 {
+  width: 50px;
+  height: 50px;
+  border: 5px solid black;
+  border-radius: 50%;
+  transform: translateX(-21px);
+  box-shadow: inset 3.3333333333px 3.3333333333px 5px black, 3.3333333333px 3.3333333333px 5px black;
+}
+
+.ring_2 {
+  width: 60px;
+  height: 60px;
+  border: 6px solid black;
+  border-radius: 50%;
+  transform: translateX(-44px);
+  box-shadow: inset 4px 4px 6px black, 4px 4px 6px black;
+}
+
+.ring_3 {
+  width: 70px;
+  height: 70px;
+  border: 7px solid black;
+  border-radius: 50%;
+  transform: translateX(-69px);
+  box-shadow: inset 4.6666666667px 4.6666666667px 7px black, 4.6666666667px 4.6666666667px 7px black;
+}
+
+.ring_4 {
+  width: 80px;
+  height: 80px;
+  border: 8px solid black;
+  border-radius: 50%;
+  transform: translateX(-96px);
+  box-shadow: inset 5.3333333333px 5.3333333333px 8px black, 5.3333333333px 5.3333333333px 8px black;
+}
+
+.ring_5 {
+  width: 90px;
+  height: 90px;
+  border: 9px solid black;
+  border-radius: 50%;
+  transform: translateX(-125px);
+  box-shadow: inset 6px 6px 9px black, 6px 6px 9px black;
+}
+
+.ring_6 {
+  width: 100px;
+  height: 100px;
+  border: 10px solid black;
+  border-radius: 50%;
+  transform: translateX(-156px);
+  box-shadow: inset 6.6666666667px 6.6666666667px 10px black, 6.6666666667px 6.6666666667px 10px black;
+}
+
+footer {
+  background-color: #432707;
+  color: #eeaa5b;
+  margin-top: 200px;
+}
+footer ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 5;
+  gap: 2px;
+  justify-content: center;
+  padding-left: 8%;
+  padding-top: 10px;
+}
+footer ul li {
+  list-style: none;
+  font-size: 1.5em;
+}
+footer h3 {
+  font-size: 1.4em;
+  color: #eeaa5b;
+  padding: 15px;
+}
